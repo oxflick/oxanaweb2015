@@ -1,0 +1,183 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #6c6c6c;
+	/* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.container {
+	background-color: #fff;
+}
+
+/* Navbar and logo */
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-brand {
+	font-family: 'Raleway', sans-serif;
+	color: #73797e;
+	font-size: 46px;
+	margin-top: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 19px;
+	text-transform: lowercase;
+	margin-top: 20px;
+	letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: rgba(255, 4, 8, 0.5);
+}
+
+.container-fluid {
+	width: 85%;
+}
+
+.upperlogo{
+	font-family: 'Raleway', sans-serif;
+	color: #73797e;
+	font-size: 46px;
+	margin-top: 20px;
+}
+
+.navbar-default .navbar-toggle {
+	margin-top: 30px;
+}
+
+/*  Jumbotron area  */
+.jumbotron {
+	background-color: #f1eee5;
+	background-image: url(../images/forweb7.jpg);
+	background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 500px;
+}
+
+.jumbotron .container {
+    background-color: transparent;
+    text-align: center;
+}
+
+.jumbotron .container h2 {
+    font-size: 3.05em;
+    font-family: 'Playfair Display', serif;
+}
+
+.custom {
+	background-color: rgba(255, 4, 8, 0.5);
+	border-color: transparent;
+	font-size: 18px;
+	border-radius: 3px;
+	margin-right: 5px;
+	color: white;
+}
+
+.custom:hover {
+	background-color: rgba(8, 4, 8, 0.7);
+	border-color: transparent;
+	color: white;
+}
+
+.custom:visited .custom:focus {
+	background-color: rgba(255, 4, 8, 0.5);
+	border-color: #efefef;
+	color: white;
+}
+
+.custom:active {
+	background-color: rgba(255, 4, 8, 0.5);
+	border-color: #efefef;
+	color: white;
+}
+
+.btnsmainbaner {
+	margin-top: 40px;
+}
+
+/* Typography styles */
+
+#thankyou {
+	color:#fc7a80;
+	display: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.leftalign {
+	text-align: left;
+}
+
+.resumeheader p {
+    line-height: 0.8em;
+}
+
+h3, label {
+	color: #66002c;
+}
+
+a {
+    color: #6c6c6c;	
+}
+
+a:hover {
+	color: rgba(255, 4, 8, 0.5);
+	text-decoration: none;
+}
+
+a:focus {
+	text-decoration: none;
+}
+
+.modal-body img {
+    margin-bottom: 10px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.footermenu {
+  margin-top: 20px;
+}
+
+.footermenu li {
+ text-decoration: none;
+ list-style: none;
+ display: inline;
+ margin-right: 25px;
+}
+
+/* Media Queries
+================================= */
+@media (min-width: 981px) {
+	.jumbotron {
+		max-width: 1300px;
+		margin: 0 auto;
+	}
+}
+
+
